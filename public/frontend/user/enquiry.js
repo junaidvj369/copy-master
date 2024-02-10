@@ -78,7 +78,7 @@ $(function () {
     function successHandler(response, textStatus, jqXHR, httpClient) {
         if (response.success) {
             Swal.fire({
-                title: "Class",
+                title: "Enquiry",
                 text: "Thank you for your inquiry. we will respond as soon as possible",
                 icon: "success",
                 customClass: {

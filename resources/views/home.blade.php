@@ -9,7 +9,7 @@
                 <div class="card-body">
                     <h3 class="card-title text-white">Total Enquiry</h3>
                     <div class="d-inline-block">
-                        <h2 class="text-white">4565</h2>
+                        <h2 class="text-white">{{$enquiryCount}}</h2>
                     </div>
                     <span class="float-right display-5 opacity-5"><i class="fa fa-shopping-cart"></i></span>
                 </div>
@@ -20,7 +20,7 @@
                 <div class="card-body">
                     <h3 class="card-title text-white">Today's Enquiry</h3>
                     <div class="d-inline-block">
-                        <h2 class="text-white">$ 8541</h2>
+                        <h2 class="text-white">{{$todayEnquiryCount}}</h2>
                     </div>
                     <span class="float-right display-5 opacity-5"><i class="fa fa-money"></i></span>
                 </div>
@@ -31,7 +31,7 @@
                 <div class="card-body">
                     <h3 class="card-title text-white">Service Type</h3>
                     <div class="d-inline-block">
-                        <h2 class="text-white">4565</h2>
+                        <h2 class="text-white">{{$serviceCount}}</h2>
                     </div>
                     <span class="float-right display-5 opacity-5"><i class="fa fa-users"></i></span>
                 </div>
