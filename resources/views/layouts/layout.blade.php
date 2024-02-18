@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="noindex">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="csrf" content="{{ csrf_token() }}">
     <link rel="shortcut icon" type="image/png" href="{{ asset('images/IR_Logo_06.png') }}" />
@@ -32,32 +33,32 @@
     <!--*******************
         Preloader end
     ********************-->
-   
-    
+
+
     <!--**********************************
         Main wrapper start
     ***********************************-->
     <div id="main-wrapper">
 
-    @include('layouts.includes.header')
+        @include('layouts.includes.header')
 
-    @include('layouts.includes.sidebar')
+        @include('layouts.includes.sidebar')
 
-      
+
 
         <!--**********************************
             Content body start
         ***********************************-->
         <div class="content-body">
-         @yield('content')
-           
+            @yield('content')
+
             <!-- #/ container -->
         </div>
         <!--**********************************
             Content body end
         ***********************************-->
-        
-        
+
+
         <!--**********************************
             Footer start
         ***********************************-->

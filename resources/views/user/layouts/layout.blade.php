@@ -7,21 +7,22 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="csrf" content="{{ csrf_token() }}">
     <title> {{config('app.name')}} | @yield('pageTitle')</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+    <meta content="@yield('Description')" name="description">
+    <meta content="printing, advertising, marketing" name="keywords">
 
     @include('user.layouts.includes.css_header')
     @stack('css')
 </head>
+
 <body>
-@include('user.layouts.includes.header')
+    @include('user.layouts.includes.header')
 
-@yield('content')
+    @yield('content')
 
-@include('user.layouts.includes.footer')
+    @include('user.layouts.includes.footer')
 
-@include('user.layouts.includes.js_footer')
-@stack('js')
+    @include('user.layouts.includes.js_footer')
+    @stack('js')
 
 </body>
 

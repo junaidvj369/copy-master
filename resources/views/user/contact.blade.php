@@ -1,6 +1,6 @@
 @extends('user.layouts.layout')
 @section('pageTitle', 'Contact Us')
-@section('Description', '')
+@section('Description', 'Contact Us')
 @section('content')
 <main id="">
 

@@ -8,7 +8,7 @@
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">Service List</h4>
-                    <a href="{{route('admin.service.create') }}"><button type="button" class="btn mb-1 btn-primary float-right">Add Subject </button></a>
+                    <a href="{{route('admin.service.create') }}"><button type="button" class="btn mb-1 btn-primary float-right">Add Service </button></a>
                     <div class="table-responsive">
                         <table id="service_table" data-route={{route('admin.service.datatable')}} class="table table-striped table-bordered" style="width:100%">
                             <thead>

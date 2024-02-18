@@ -1,6 +1,6 @@
 @extends('user.layouts.layout')
 @section('pageTitle', 'Home')
-@section('Description', '')
+@section('Description', 'Copy Master Unlock the power of print and advertising with our comprehensive solutions. From stunning designs to targeted campaigns, we bring your brand to life. Explore our services today!')
 @section('content')
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex justify-cntent-center align-items-center">
@@ -67,76 +67,6 @@
   </div>
 
   <!-- ======= Services Section ======= -->
-  <section class="services p-b50">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
-          <div class="icon-box icon-box-pink">
-            <div class="icon"><i class="bi bi-clipboard2-heart"></i></div>
-            <h4 class="title"><a href="">Service Excellence</a></h4>
-            <p class="description">Our dedicated team is committed to not just meeting but exceeding your specifications. We take pride in going the extra mile to ensure your satisfaction, making exceptional customer service a hallmark of our business.</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-          <div class="icon-box icon-box-cyan">
-            <div class="icon"><i class="bi bi-patch-check"></i></div>
-            <h4 class="title"><a href="">Uncompromising Quality</a></h4>
-            <p class="description">At Copy Master, we recognize the importance of delivering top-tier digital printing. Our advanced technology and meticulous attention to detail guarantee that our work consistently meets and surpasses industry standards.</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-          <div class="icon-box icon-box-green">
-            <div class="icon"><i class="bi bi-cash-coin"></i></div>
-            <h4 class="title"><a href="">Competitive Pricing</a></h4>
-            <p class="description">While we prioritize quality, we also understand the importance of remaining competitive in pricing. Copy Master is dedicated to providing exceptional value for your investment, ensuring you receive top-notch work without straining your budget.</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-          <div class="icon-box icon-box-blue">
-            <div class="icon"><i class="bx bx-world"></i></div>
-            <h4 class="title"><a href="">All-in-One Solutions</a></h4>
-            <p class="description">Copy Master is not just a printing service; we are your comprehensive solution provider for indoor printing, digital printing, and advertising needs. Experience convenience and excellence all under one roof with Copy Master.</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section><!-- End Services Section -->
-
-  <!-- ======= Why Us Section ======= -->
-  <section class="why-us section-bg p-b80 p-t80" data-aos="fade-up" date-aos-delay="200">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-lg-6 video-box">
-          <img src="{{ asset('frontend/assets/img/print.jpg')}}" class="img-fluid" alt="">
-          <a href="https://www.youtube.com/watch?v=WB0HnXcW8qQ" target="_blank" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-        </div>
-
-        <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
-
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-fingerprint"></i></div>
-            <h4 class="title"><a href="">Digital Precision</a></h4>
-            <p class="description">Modern printing technologies, especially digital printing, offer unparalleled precision. Whether producing high-resolution images or fine text, digital printers ensure accurate reproduction, contributing to the clarity and visual impact of printed materials.</p>
-          </div>
-
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-gift"></i></div>
-            <h4 class="title"><a href="">Material Adaptability</a></h4>
-            <p class="description">Printing has evolved beyond paper to embrace various materials. From textiles to plastics, printing technologies can now effectively apply designs to a diverse range of surfaces. This adaptability opens up new possibilities for creative expression and allows for customized printing on different mediums to suit various needs.</p>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </section><!-- End Why Us Section -->
 
   <!-- ======= Features Section ======= -->
   <section class="features p-b80 p-t80">
@@ -236,6 +166,78 @@
 
     </div>
   </section><!-- End Features Section -->
+  <section class="services p-5" style="background: #f0f8ff">
+    <div class="container">
+      <div class="section-title p-b80">
+        <h2>Why Us</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
+          <div class="icon-box icon-box-pink">
+            <div class="icon"><i class="bi bi-clipboard2-heart"></i></div>
+            <h4 class="title"><a href="">Service Excellence</a></h4>
+            <p class="description">Our dedicated team is committed to not just meeting but exceeding your specifications. We take pride in going the extra mile to ensure your satisfaction, making exceptional customer service a hallmark of our business.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="icon-box icon-box-cyan">
+            <div class="icon"><i class="bi bi-patch-check"></i></div>
+            <h4 class="title"><a href="">Uncompromising Quality</a></h4>
+            <p class="description">At Copy Master, we recognize the importance of delivering top-tier digital printing. Our advanced technology and meticulous attention to detail guarantee that our work consistently meets and surpasses industry standards.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon-box icon-box-green">
+            <div class="icon"><i class="bi bi-cash-coin"></i></div>
+            <h4 class="title"><a href="">Competitive Pricing</a></h4>
+            <p class="description">While we prioritize quality, we also understand the importance of remaining competitive in pricing. Copy Master is dedicated to providing exceptional value for your investment, ensuring you receive top-notch work without straining your budget.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon-box icon-box-blue">
+            <div class="icon"><i class="bx bx-world"></i></div>
+            <h4 class="title"><a href="">All-in-One Solutions</a></h4>
+            <p class="description">Copy Master is not just a printing service; we are your comprehensive solution provider for indoor printing, digital printing, and advertising needs. Experience convenience and excellence all under one roof with Copy Master.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+
+  <!-- ======= Why Us Section ======= -->
+  <section class="why-us section-bg p-b80 p-t80" data-aos="fade-up" date-aos-delay="200">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-6 video-box">
+          <img src="{{ asset('frontend/assets/img/print.jpg')}}" class="img-fluid" alt="">
+          <a href="https://www.youtube.com/watch?v=WB0HnXcW8qQ" target="_blank" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+        </div>
+
+        <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-fingerprint"></i></div>
+            <h4 class="title"><a href="">Digital Precision</a></h4>
+            <p class="description">Modern printing technologies, especially digital printing, offer unparalleled precision. Whether producing high-resolution images or fine text, digital printers ensure accurate reproduction, contributing to the clarity and visual impact of printed materials.</p>
+          </div>
+
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-gift"></i></div>
+            <h4 class="title"><a href="">Material Adaptability</a></h4>
+            <p class="description">Printing has evolved beyond paper to embrace various materials. From textiles to plastics, printing technologies can now effectively apply designs to a diverse range of surfaces. This adaptability opens up new possibilities for creative expression and allows for customized printing on different mediums to suit various needs.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Why Us Section -->
 
 </main><!-- End #main -->
 

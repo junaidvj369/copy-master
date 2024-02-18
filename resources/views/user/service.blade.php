@@ -1,6 +1,6 @@
 @extends('user.layouts.layout')
 @section('pageTitle', 'Services')
-@section('Description', '')
+@section('Description', 'Our Services')
 @section('content')
 <main>
   <section class="banner-strip-wrap" style="background-image: url('{{ asset('frontend/assets/img/bg-1.jpg') }}')">
