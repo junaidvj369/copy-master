@@ -24,7 +24,7 @@
 
               Hor Al Anz Plaza-Dubai-UAE <br><br>
               <strong>Phone: </strong><a href="tel:+971 52 874 7050">+971 52 874 7050</a><br>
-              <strong>Email: </strong><a href="mailto:copymasterdxd@gmail.com">copymasterdxd@gmail.com</a><br>
+              <strong>Email: </strong><a href="mailto:copymasterdxb@gmail.com">copymasterdxb@gmail.com</a><br>
             </p>
 
           </div>

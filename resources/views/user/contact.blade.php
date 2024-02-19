@@ -40,7 +40,7 @@
               <div class="info-box">
                 <i class="bx bx-envelope"></i>
                 <h3>Email Us</h3>
-                <p><a href="mailto:copymasterdxd@gmail.com">copymasterdxd@gmail.com</a></p>
+                <p><a href="mailto:copymasterdxb@gmail.com">copymasterdxb@gmail.com</a></p>
               </div>
             </div>
             <div class="col-md-6">
